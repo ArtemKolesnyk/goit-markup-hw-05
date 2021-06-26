@@ -84,15 +84,15 @@
             </div>     
         </header> 
         <main>
-            <section class="section-hero">
-                <div class="container-hero">
+            <section class="section hero">
+                <div class="container hero">
                     <h1 class="title-hero">Эффективные решения для вашего бизнеса</h1>
-                    <button class="hero-button" type="button">Заказать услугу</button>       
+                    <button class="hero-button js-hero-button" type="button">Заказать услугу</button>       
                 </div>
             </section>
             <section class="section">
                 <div class="container">
-                    <h2 hidden>Особенности</h2>
+                    <h2 class="title-specifics" hidden>Особенности</h2>
                     <ul class="specifics-list">
                         <li class="specifics-list-item">
                             <div class="specifics-icon-box">
@@ -143,8 +143,8 @@
                     </ul>
                 </div>    
             </section>    
-            <section class="team-section">
-                <div class="container">
+            <section class="section team">
+                <div class="container team">
                     <h2 class="team-title">Наша команда</h2>
                     <ul class="team-list">
                         <li class="team-cards">
@@ -226,7 +226,7 @@
                     </ul>
                 </div>    
             </section>
-            <section class="client-section">
+            <section class="section">
                 <div class="container">
                     <h2 class="client-title">Постоянные клиенты</h2>
                     <ul class="client-list">
@@ -265,8 +265,8 @@
             </section>     
         </main> 
         <footer class="footer">
-            <div class="footer-container">
-                <div class="address-container">
+            <div class="container footer">
+                <div class="address-box">
                     <a href="index.html" class="logo" lang="en"><span>Web</span><span class="logo-white">Studio</span></a>
                     <address class="address">
                         <p class="text-address">г. Киев, пр-т Леси Украинки, 26</p>
@@ -280,7 +280,7 @@
                         </ul>
                     </address>
                 </div>    
-                <div class="social-container">
+                <div class="social-box">
                     <h3 class="footer-title">присоединяйтесь</h3>
                     <ul class="footer-icon-list">
                         <li class="footer-icon-list-item"><a href="#"></a><svg class="icon">
@@ -298,6 +298,13 @@
                     </ul>
                 </div>
             </div>
-        </footer>   
+        </footer> 
+        <div class="wrapper-popup js-wrapper-popup">
+            <div class="popup">
+                <div class="close-popup js-close-popup">&#10006;</div>
+                <form class="form"></form>  
+            </div> 
+        </div> 
+        <script src="js/script.js"></script>
     </body>
 </html>
