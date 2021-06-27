@@ -87,7 +87,7 @@
             <section class="section hero">
                 <div class="container hero">
                     <h1 class="title-hero">Эффективные решения для вашего бизнеса</h1>
-                    <button class="hero-button js-hero-button" type="button">Заказать услугу</button>       
+                    <button data-modal-open class="hero-button" type="button">Заказать услугу</button>       
                 </div>
             </section>
             <section class="section">
@@ -137,9 +137,24 @@
                 <div class="container">
                     <h2 class="business-title">Чем мы занимаемся</h2>
                     <ul class="business">
-                        <li><img src="./images/img.jpg" alt="розработка сайта"></li>
-                        <li><img src="./images/img(1).jpg" alt="мобильные приложения"></li>
-                        <li><img src="./images/img(2).jpg" alt="дизай"></li>
+                        <li>
+                            <div class="thumb">
+                                <img src="./images/img.jpg" alt="розработка сайта">
+                                <p class="label">Десктопные приложения</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="thumb">
+                                <img src="./images/img(1).jpg" alt="мобильные приложения">
+                                <p class="label">Мобильные приложения</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="thumb">
+                                <img src="./images/img(2).jpg" alt="дизай">
+                                <p class="label">Дизайнерские решения</p>
+                            </div>
+                        </li>
                     </ul>
                 </div>    
             </section>    
@@ -299,12 +314,5 @@
                 </div>
             </div>
         </footer> 
-        <div class="wrapper-popup js-wrapper-popup">
-            <div class="popup">
-                <div class="close-popup js-close-popup">&#10006;</div>
-                <form class="form"></form>  
-            </div> 
-        </div> 
-        <script src="js/script.js"></script>
     </body>
 </html>
